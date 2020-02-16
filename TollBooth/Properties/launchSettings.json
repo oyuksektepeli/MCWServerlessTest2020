@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TollBooth": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "blobStorageConnection": "DefaultEndpointsProtocol=https;AccountName=nctollboothstorage;AccountKey=/+74rLx2LYBGn8Qzbgh7+BOPUSIlGx5bHZxxanbAylL5NN0Jte3anJa9zTeQb1m6y2fNwV12kjJPy0PmiWGgmw==;EndpointSuffix=core.windows.net"
+      }
+    }
+  }
+}

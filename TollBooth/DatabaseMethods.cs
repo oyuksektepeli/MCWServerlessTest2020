@@ -43,7 +43,7 @@ namespace TollBooth
                 // COMPLETE: licensePlates = _client.CreateDocumentQuery ...
 
                 licensePlates = _client.CreateDocumentQuery<LicensePlateDataDocument>(collectionLink,
-                                                        new FeedOptions() { EnableCrossPartitionQuery = true, MaxItemCount = 100 })
+                                                        new FeedOptions() { EnableCrossPartitionQuery = true, MaxItemCount = 10000 })
                                                         .Where(l => l.exported == false)
                                                         .ToList();
 
